@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+html {
+  // variáveis
+  --bj-color: #EDF2FF;
+  --text-color: #00082F;
+}
+
 a {
   text-decoration: none;
 }
@@ -11,6 +17,7 @@ a {
 body {
   background: url(../assets/images/wall-e.jpg) no-repeat center;
   background-size: cover;
+  color: var(--text-color);
   font-family: 'Roboto', sans-serif;
 }
 
@@ -33,14 +40,12 @@ body {
 
   h1 {
     font-size: 32px;
-    color: #00082F;
     margin-top: 24px;
     margin-bottom: 8px;
   }
 
   p {
     font-family: 'Roboto mono', monospace;
-    color: #00082F;
     font-weight: 400;
     opacity: 0.8;
     font-size: 18px;
@@ -78,7 +83,6 @@ body {
   footer {
     font-weight: 500;
     font-size: 12px;
-    color: #00082F;
     opacity: 0.6;
     transition: opacity 400ms;
 
@@ -87,7 +91,7 @@ body {
     }
 
     a {
-      color: #00082F;
+      color: var(--text-color);
     }
   }
 }
