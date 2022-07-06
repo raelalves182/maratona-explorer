@@ -9,7 +9,8 @@ a {
 }
 
 body {
-  background: #E5E5E5;
+  background: url(../assets/images/wall-e.jpg) no-repeat center;
+  background-size: cover;
   font-family: "Roboto", sans-serif;
 }
 
