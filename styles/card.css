@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: url(../assets/images/wall-e.jpg) no-repeat center;
+  background-size: cover;
+  color: var(--text-color);
+  font-family: "Roboto", sans-serif;
+}
+
+.card {
+  max-width: 1200px;
+  margin: 20px auto 20px;
+  text-align: center;
+}
+.card h1 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+.card__content ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+.card__content ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.card__content ul li a {
+  margin-top: 12px;
+  background-color: aqua;
+  padding: 5px;
+  border-radius: 4px;
+}
+.card__content img {
+  max-width: 300px;
+  width: 100%;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  height: 40px;
+  max-width: 200px;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+footer a {
+  color: #fff;
+  font-size: 30px;
+}/*# sourceMappingURL=card.css.map */
